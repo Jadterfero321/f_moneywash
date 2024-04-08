@@ -67,11 +67,11 @@ end
 RegisterNetEvent('moneywash_start', function (arg)
     lib.registerContext({
         id = 'moneywash_start',
-        title = locale('title'),
+        title = 'Money Launering',
         options = {
             {
-                title = locale('title'),
-                description = locale('description'),
+                title = 'Money Launering',
+                description = 'Wash your dirty money to get legal money',
                 icon = 'dollar',
                 event = 'money'
             },
